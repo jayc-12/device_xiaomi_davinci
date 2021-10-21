@@ -73,3 +73,5 @@ TARGET_USES_FOD_ZPOS := true
 
 # Inherit from proprietary files
 include vendor/xiaomi/davinci/BoardConfigVendor.mk
+
+BUILD_BROKEN_ENFORCE_SYSPROP_OWNER := true
