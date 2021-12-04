@@ -1,0 +1,20 @@
+[
+    {
+        "remote": "devices",
+        "repository": "android_device_xiaomi_sm6150-common",
+        "target_path": "device/xiaomi/sm6150-common",
+        "branch": "spark"
+    },
+    {
+        "remote": "devices",
+        "repository": "android_vendor_xiaomi_davinci",
+        "target_path": "vendor/xiaomi",
+        "branch": "spark"
+    },
+    {
+        "remote": "devices",
+        "repository": "android_kernel_xiaomi_sm6150",
+        "target_path": "kernel/xiaomi/sm6150",
+        "branch": "spark"
+    },
+]
