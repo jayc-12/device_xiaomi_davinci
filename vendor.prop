@@ -12,3 +12,6 @@ persist.vendor.cp.taper_term_mv=6500
 persist.vendor.qg_cld_coff_gain=1.5
 persist.vendor.qg_coff_gain=1
 persist.vendor.qg_cold_temp=-150
+
+# Skia
+renderthread.skia.reduceopstasksplitting=true
