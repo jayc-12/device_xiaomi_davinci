@@ -15,6 +15,8 @@ $(call inherit-product, device/xiaomi/davinci/device.mk)
 $(call inherit-product, vendor/krypton/config/common_full_phone.mk)
 
 TARGET_BUILD_GRAPHENEOS_CAMERA := false
+PRODUCT_DEFAULT_DEV_CERTIFICATE := $(RELEASE_KEY)
+PRODUCT_OTA_PUBLIC_KEYS := $(RELEASE_KEY)
 
 PRODUCT_NAME := krypton_davinci
 PRODUCT_DEVICE := davinci
