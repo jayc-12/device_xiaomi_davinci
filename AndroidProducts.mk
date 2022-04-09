@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_davinci.mk
+    $(LOCAL_DIR)/corvus_davinci.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_davinci-user \
-    aosp_davinci-userdebug \
-    aosp_davinci-eng
+    corvus_davinci-user \
+    corvus_davinci-userdebug \
+    corvus_davinci-eng
