@@ -12,9 +12,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/davinci/device.mk)
 
 # Inherit some common spark stuff.
-$(call inherit-product, vendor/aosp/common.mk)
+$(call inherit-product, vendor/streak/config/common_full_phone.mk)
 
-PRODUCT_NAME := aosp_davinci
+PRODUCT_NAME := streak_davinci
 PRODUCT_DEVICE := davinci
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Mi 9T
@@ -23,15 +23,15 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Inherit some common ArcanaOS stuff.
-ARCANA_MAINTAINER := Jayc-12
+
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
-TARGET_SUPPORTS_BLUR := true
-EXTRA_UDFPS_ANIMATIONS := true
-COPY_APN_SYSTEM := true
-USE_PIXEL_CHARGER_IMAGES := true
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
-PREBUILT_LAWNCHAIR := true
+#TARGET_SUPPORTS_BLUR := true
+#EXTRA_UDFPS_ANIMATIONS := true
+#COPY_APN_SYSTEM := true
+#USE_PIXEL_CHARGER_IMAGES := true
+#TARGET_BUILD_GRAPHENEOS_CAMERA := true
+#PREBUILT_LAWNCHAIR := true
 WITH_GAPPS := true
 
 # Fingerprint
